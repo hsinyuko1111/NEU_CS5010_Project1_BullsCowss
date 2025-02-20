@@ -53,7 +53,7 @@ This implementation showcases modern software development practices including ob
 
 ## Project Architecture
 The game implements a clean, modular architecture:
-
+```
 ├── main.js                # Application entry point
 │
 ├── Game.js                # Abstract base game class
