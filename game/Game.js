@@ -1,5 +1,6 @@
 // game/Game.js
 import Guess from "./Guess.js";
+import GuessBuilder from "./GuessBuilder.js";
 
 /**
  * @class Game
@@ -47,10 +48,16 @@ export default class Game {
         }
       }
   
-      const guess = new Guess(guessInput, bulls, cows);
+      const guess = new GuessBuilder()
+      .setGuess(guessInput)
+      .setBulls(bulls)
+      .setCows(cows)
+      .build();
+
       this.guessHistory.push(guess);
       this.attempts++;
       return guess;
+
     }
   }
   

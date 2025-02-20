@@ -1,0 +1,96 @@
+{
+  "numbers": {
+    "3": {
+      "Cindy": {
+        "score": 0,
+        "games_played": 1,
+        "last_played": "2025-02-20T19:55:46.116Z"
+      },
+      "undefined": {
+        "score": 0,
+        "games_played": 1,
+        "last_played": "2025-02-20T22:12:09.056Z"
+      },
+      "tt": {
+        "score": 0,
+        "games_played": 1,
+        "last_played": "2025-02-20T22:15:47.031Z"
+      }
+    },
+    "4": {
+      "Cindy": {
+        "score": 0,
+        "games_played": 1,
+        "last_played": "2025-02-20T21:23:15.463Z"
+      }
+    }
+  },
+  "Numbers": {
+    "3": {
+      "Cindy": {
+        "score": 8,
+        "games_played": 1,
+        "last_played": "2025-02-20T19:55:56.363Z"
+      },
+      "undefined": {
+        "score": 9,
+        "games_played": 2,
+        "last_played": "2025-02-20T22:12:11.317Z"
+      },
+      "tt": {
+        "score": 7,
+        "games_played": 1,
+        "last_played": "2025-02-20T22:15:57.083Z"
+      }
+    },
+    "4": {
+      "Cindy": {
+        "score": 7,
+        "games_played": 1,
+        "last_played": "2025-02-20T21:24:09.694Z"
+      }
+    }
+  },
+  "characters": {
+    "3": {
+      "Cindy2": {
+        "score": 0,
+        "games_played": 1,
+        "last_played": "2025-02-20T20:06:31.770Z"
+      }
+    },
+    "4": {
+      "Cindy1": {
+        "score": 0,
+        "games_played": 1,
+        "last_played": "2025-02-20T19:56:30.661Z"
+      },
+      "characters": {
+        "score": 0,
+        "games_played": 1,
+        "last_played": "2025-02-20T20:13:52.821Z"
+      }
+    }
+  },
+  "Characters": {
+    "3": {
+      "Cindy2": {
+        "score": 8,
+        "games_played": 1,
+        "last_played": "2025-02-20T20:06:37.177Z"
+      }
+    },
+    "4": {
+      "Cindy1": {
+        "score": 7,
+        "games_played": 1,
+        "last_played": "2025-02-20T19:56:41.058Z"
+      },
+      "characters": {
+        "score": 8,
+        "games_played": 1,
+        "last_played": "2025-02-20T20:13:58.607Z"
+      }
+    }
+  }
+}

@@ -1,9 +1,7 @@
 import readline from "readline";
 import GameManager from "./game/GameManager.js";
 import Player from "./game/Player.js";
-import Leaderboard from "./game/LeaderBoard.js"; // Import Leaderboard
 
-// Create a CLI interface
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -20,14 +18,12 @@ function startGame() {
             rl.question("Enter difficulty level (3-5): ", (difficulty) => {
                 difficulty = parseInt(difficulty);
 
-                // Validate difficulty
                 if (![3, 4, 5].includes(difficulty)) {
                     console.log("Invalid difficulty. Please enter a number between 3 and 5.");
                     askPlayAgain();
                     return;
                 }
 
-                // Start game based on user choice
                 try {
                     const game = GameManager.startGame(gameType, difficulty, player);
                     console.log(`Game started: ${gameType} with difficulty ${difficulty}`);
@@ -35,7 +31,6 @@ function startGame() {
                     // Debugging: Show the secret sequence (remove this in production)
                     console.log(`(Secret: ${game.secretSequence})`);
 
-                    // Ask user for a guess
                     askForGuess(game, player);
                 } catch (error) {
                     console.error("Error:", error.message);
@@ -53,9 +48,8 @@ function startGame() {
  */
 function askForGuess(game, player) {
     rl.question("Enter your guess: ", (guess) => {
-        // ✅ Ensure guess is a string and has the correct length
         if (!guess || guess.length !== game.difficulty) {
-            console.log(`❌ Invalid guess length! Expected ${game.difficulty} characters.`);
+            console.log(`❌ Invalid gue ss length! Expected ${game.difficulty} characters.`);
             askForGuess(game, player);
             return;
         }
@@ -67,22 +61,18 @@ function askForGuess(game, player) {
             if (result.bulls === game.difficulty) {
                 console.log("🎉 Congratulations! You guessed the correct sequence!");
 
-                // ✅ Update player's score (Higher score for fewer attempts)
-                const finalScore = Math.max(10 - game.attempts, 1); // Example scoring system
-                Leaderboard.updateScore(player, finalScore);
+                const finalScore = Math.max(10 - game.attempts, 1);
 
-                // ✅ Show leaderboard at the end
-                console.log("\n🏆 Final Leaderboard:");
-                GameManager.showLeaderboard(5);
+                GameManager.updateLeaderboard(player, game.mode, game.difficulty, finalScore);
+                GameManager.showLeaderboard(game.mode, game.difficulty, 5);
 
-                // ✅ Ask if they want to play again
                 askPlayAgain();
             } else {
-                askForGuess(game, player); // Ask for another guess
+                askForGuess(game, player); 
             }
         } catch (error) {
             console.error("⚠️ Error processing guess:", error.message);
-            askForGuess(game, player); // Retry on invalid input
+            askForGuess(game, player); 
         }
     });
 }
@@ -94,15 +84,13 @@ function askPlayAgain() {
     rl.question("\nDo you want to play again? (yes/no): ", (answer) => {
         if (answer.toLowerCase() === "yes") {
             console.log("\n🎮 Restarting game...");
-            startGame(); // Restart the game
+            startGame(); 
         } else {
             console.log("\n👋 Thanks for playing! Goodbye!");
-            rl.close(); // Close the program
+            rl.close(); 
         }
     });
 }
 
-// Start the game for the first time
+
 startGame();
-
-

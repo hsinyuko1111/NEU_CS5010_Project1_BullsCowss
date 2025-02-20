@@ -1,19 +1,26 @@
 // game/Guess.js
 
 /**
- * @class Guess
+ * Represents a player's guess in the Bulls and Cows game.
  */
 export default class Guess {
-    /**
-     * @param {string} guess - Player's guess
-     * @param {number} bulls - Correct positions
-     * @param {number} cows - Correct characters but wrong positions
-     */
-    constructor(guess, bulls, cows) {
-      this.guess = guess;
-      this.bulls = bulls;
-      this.cows = cows;
-      this.timestamp = new Date();
-    }
+  /**
+   * Creates a new `Guess` object.
+   * @param {GuessBuilder} builder - The builder instance containing guess details.
+   */
+  constructor(builder) {
+      /** @type {string} */
+      this.guess = builder.guess;
+      
+      /** @type {number} */
+      this.bulls = builder.bulls;
+      
+      /** @type {number} */
+      this.cows = builder.cows;
+      
+      /** @type {string} */
+      this.timestamp = builder.timestamp;
   }
+}
+
   
