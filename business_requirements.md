@@ -218,6 +218,7 @@ Users can be classified into the following categories based on their engagement 
 
 ## **🔟  Mockup Interface**
 
+
 - [📄 View Mockup Interface](docs/cows_bulls_interface.pdf)
 
 ---
