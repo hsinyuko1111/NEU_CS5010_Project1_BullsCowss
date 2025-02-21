@@ -1,8 +1,11 @@
 # **Bulls and Cows Game: Business Requirements**
 
-[📄 View v1 Business Requirements](./cows_bulls_business_requirment.pdf)
-[📄 View v1 UML Diagram](./cows_bulls_uml.pdf)]
-[📄 View v1 Mockup Interface](./cows_bulls_interface.pdf)]
+- [📄 View v1 Business Requirements](./cows_bulls_business_requirment.pdf)
+
+- [📄 View v1 UML Diagram](./cows_bulls_uml.pdf)]
+
+- [📄 View v1 Mockup Interface](./cows_bulls_interface.pdf)]
+
 ## **1️⃣ Project Overview**
 The **Bulls and Cows Game** is a modern adaptation of the classic **code-breaking game**, allowing users to guess either **numbers or characters** in an interactive and engaging experience. The game provides **real-time feedback** on guesses and supports **customizable difficulty levels** to cater to both casual and competitive players.
 
@@ -154,6 +157,7 @@ Users can be classified into the following categories based on their engagement 
 - **Story Points:**  
   - `"As a casual gamer, I want to play a quick round of Bulls and Cows so that I can relax."`  
   - `"As a casual gamer, I want instant feedback on my guesses to improve my strategy."`  
+  - `"As a casual gamer, I want the option to adjust difficulty settings before starting a game so that I can choose a comfortable challenge level."`
 
 ---
 
@@ -172,6 +176,7 @@ Users can be classified into the following categories based on their engagement 
 - **Story Points:**  
   - `"As a competitive player, I want a leaderboard to compare my performance."`  
   - `"As a competitive player, I want a difficulty-based ranking to improve my problem-solving speed."`  
+  - `"As a competitive player, I want to review my past game history so that I can analyze my performance and refine my strategy."`
 
 ---
 
@@ -199,13 +204,73 @@ Users can be classified into the following categories based on their engagement 
 
 ## **9️⃣ AI Usage in This Project**
 Throughout this project, AI tools like **ChatGPT 4o** were used to:
-✅ **Refine business requirements** and ensure clarity. (as we can see now)
-✅ **Improve OOP design** by reinforcing **Abstraction, Encapsulation, Inheritance, and Polymorphism**.  
-✅ **Apply SOLID principles** for better maintainability.  
-✅ **Suggest design patterns** such as **Singleton, Factory, and Builder** to optimize the game architecture.  
-✅ **Assist in debugging and improving code readability**.  
+### 1️⃣ Refining Business Requirements
+**📌 Prompts Used:**
+* "Help me refine this business requirement file based on the changes I have made."
+* "How do I link a file in my markdown file?"
+* "Can you help me list prompts I used and section I put the answer?"
 
-The use of AI **streamlined documentation, improved design choices, and helped identify potential issues early**. While AI-assisted, all final decisions were **reviewed and adapted manually** to ensure the best implementation.  
+**📌 Where the Answer Was Placed:**
+- ✅ **Section: Business Requirements (Updated Document)**
+- ✅ **Section: Markdown File Formatting (Business Documentation in `README.md`)**
+
+### 2️⃣ Object-Oriented Programming (OOP) Design
+**📌 Prompts Used:**
+* "Provide at least one example in your code of the application of each one of the OOP pillars (Abstraction, Encapsulation, Inheritance, and Polymorphism)."
+* "Show at least one example of your code demonstrating each one of the SOLID principles."
+
+**📌 Where the Answer Was Placed:**
+- ✅ **Section: OOP Implementation (Abstraction, Encapsulation, Inheritance, Polymorphism)**
+- ✅ **Section: SOLID Principles Breakdown**
+
+### 3️⃣ Design Patterns Implementation
+**📌 Prompts Used:**
+* "Provide at least three examples of application of design patterns in your code (e.g., Singleton, Builder, Factory, etc.)."
+* "Where should I apply the Builder pattern in my code?"
+
+**📌 Where the Answer Was Placed:**
+- ✅ **Section: Design Patterns (Singleton, Builder, Factory)**
+- ✅ **Section: `GuessBuilder.js` Implementation**
+
+### 4️⃣ Debugging and Code Readability
+**📌 Prompts Used:**
+* "Why does my leaderboard reset every time I restart the game?"
+* "Why does my processGuess() always say 'Invalid guess'?"
+* "Can you simplify this function for me?"
+
+**📌 Where the Answer Was Placed:**
+- ✅ **Section: Debugging and Fixing `Leaderboard.js` (Persistent JSON Storage)**
+- ✅ **Section: Optimized Code Refactoring (Simplifying `updateScore()`)**
+
+### 5️⃣ User Personas & Gameplay Enhancements
+**📌 Prompts Used:**
+* "Can you add another story persona based on this user story?"
+* "Help me add two more story points for these people."
+* "Can you add dimensions like this example?"
+
+**📌 Where the Answer Was Placed:**
+- ✅ **Section: User Personas (Emma, James, and Oliver)**
+- ✅ **Section: User Classification & Dimensions**
+
+### 6️⃣ Markdown Formatting & Documentation
+**📌 Prompts Used:**
+* "How do I link the file in my Markdown file?"
+* "Can you convert this into Markdown format?"
+
+**📌 Where the Answer Was Placed:**
+- ✅ **Section: Markdown-Formatted Business Requirements (`business_requirements.md`)**
+- ✅ **Section: Proper Markdown Linking and File References**
+
+### 📌 Final AI Usage Summary
+AI tools like **ChatGPT 4o** were used extensively in:
+- ✅ **Refining Business Requirements**
+- ✅ **Improving OOP Design and SOLID Principles Implementation**
+- ✅ **Suggesting and Applying Design Patterns (Singleton, Factory, Builder)**
+- ✅ **Debugging Code (Leaderboard Persistence, Guess Validation, Function Optimization)**
+- ✅ **Enhancing User Personas and Gameplay Flow**
+- ✅ **Structuring and Formatting Documentation in Markdown**
+
+While AI-assisted, **final decisions, code reviews, and modifications were done manually** to ensure accuracy and best practices. 
 
 🚀 **Conclusion:** AI was an essential tool in optimizing this project but did not replace the need for logical reasoning and manual adjustments.
 
