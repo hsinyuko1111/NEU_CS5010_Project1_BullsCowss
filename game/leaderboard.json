@@ -1,110 +1,33 @@
 {
   "numbers": {
     "3": {
-      "Cindy": {
+      "cindy": {
         "score": 0,
         "games_played": 1,
-        "last_played": "2025-02-20T19:55:46.116Z"
-      },
-      "undefined": {
-        "score": 0,
-        "games_played": 1,
-        "last_played": "2025-02-20T22:12:09.056Z"
-      },
-      "tt": {
-        "score": 0,
-        "games_played": 1,
-        "last_played": "2025-02-20T22:15:47.031Z"
-      },
-      "Cdd": {
-        "score": 0,
-        "games_played": 1,
-        "last_played": "2025-02-21T01:43:23.517Z"
+        "last_played": "2025-02-21T17:56:03.103Z"
       }
     },
     "4": {
-      "Cindy": {
+      "Ryan": {
         "score": 0,
         "games_played": 1,
-        "last_played": "2025-02-20T21:23:15.463Z"
-      },
-      "CDD": {
-        "score": 0,
-        "games_played": 1,
-        "last_played": "2025-02-21T01:46:13.991Z"
+        "last_played": "2025-02-21T18:04:40.332Z"
       }
     }
   },
   "Numbers": {
     "3": {
-      "Cindy": {
-        "score": 8,
-        "games_played": 2,
-        "last_played": "2025-02-21T01:40:09.074Z"
-      },
-      "undefined": {
-        "score": 9,
-        "games_played": 2,
-        "last_played": "2025-02-20T22:12:11.317Z"
-      },
-      "tt": {
-        "score": 7,
+      "cindy": {
+        "score": 5,
         "games_played": 1,
-        "last_played": "2025-02-20T22:15:57.083Z"
+        "last_played": "2025-02-21T17:57:14.511Z"
       }
     },
     "4": {
-      "Cindy": {
-        "score": 7,
+      "Ryan": {
+        "score": 1,
         "games_played": 1,
-        "last_played": "2025-02-20T21:24:09.694Z"
-      },
-      "CDD": {
-        "score": 7,
-        "games_played": 1,
-        "last_played": "2025-02-21T01:47:23.333Z"
-      }
-    }
-  },
-  "characters": {
-    "3": {
-      "Cindy2": {
-        "score": 0,
-        "games_played": 1,
-        "last_played": "2025-02-20T20:06:31.770Z"
-      }
-    },
-    "4": {
-      "Cindy1": {
-        "score": 0,
-        "games_played": 1,
-        "last_played": "2025-02-20T19:56:30.661Z"
-      },
-      "characters": {
-        "score": 0,
-        "games_played": 1,
-        "last_played": "2025-02-20T20:13:52.821Z"
-      }
-    }
-  },
-  "Characters": {
-    "3": {
-      "Cindy2": {
-        "score": 8,
-        "games_played": 1,
-        "last_played": "2025-02-20T20:06:37.177Z"
-      }
-    },
-    "4": {
-      "Cindy1": {
-        "score": 7,
-        "games_played": 1,
-        "last_played": "2025-02-20T19:56:41.058Z"
-      },
-      "characters": {
-        "score": 8,
-        "games_played": 1,
-        "last_played": "2025-02-20T20:13:58.607Z"
+        "last_played": "2025-02-21T18:28:37.528Z"
       }
     }
   }

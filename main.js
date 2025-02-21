@@ -29,7 +29,7 @@ function startGame() {
                     console.log(`Game started: ${gameType} with difficulty ${difficulty}`);
 
                     // Debugging: Show the secret sequence (remove this in production)
-                    console.log(`(Secret: ${game.secretSequence})`);
+                    //console.log(`(Secret: ${game.secretSequence})`);
 
                     askForGuess(game, player);
                 } catch (error) {

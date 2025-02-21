@@ -37,6 +37,7 @@ class Leaderboard {
           games_played: 0,
           last_played: ""
       };
+      
       playerRecord.score = Math.max(playerRecord.score, score);
       playerRecord.games_played += 1; 
       playerRecord.last_played = new Date().toISOString(); 

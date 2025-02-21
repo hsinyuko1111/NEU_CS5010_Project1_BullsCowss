@@ -26,6 +26,7 @@ export default class CharacterGame extends Game {
      */
     generateSecretSequence() {
         const words = CharacterGame.WORD_LIST[this.difficulty];
+        console.log("Words List: ", CharacterGame.WORD_LIST[this.difficulty])
         this.secretSequence = words[Math.floor(Math.random() * words.length)];
     }
 }

@@ -37,7 +37,6 @@ export default class GameManager {
                 throw new Error("Invalid game type!");
         }
 
-        // ✅ Initialize player's score in the Leaderboard if they haven't played this game mode & difficulty
         if (!Leaderboard.rankings[gameType] || !Leaderboard.rankings[gameType][difficulty] || !Leaderboard.rankings[gameType][difficulty][player.getName()]) {
             this.updateLeaderboard(player, gameType, difficulty, 0);
         }
