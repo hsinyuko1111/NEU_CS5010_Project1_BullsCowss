@@ -15,6 +15,11 @@
         "score": 0,
         "games_played": 1,
         "last_played": "2025-02-20T22:15:47.031Z"
+      },
+      "Cdd": {
+        "score": 0,
+        "games_played": 1,
+        "last_played": "2025-02-21T01:43:23.517Z"
       }
     },
     "4": {
@@ -22,6 +27,11 @@
         "score": 0,
         "games_played": 1,
         "last_played": "2025-02-20T21:23:15.463Z"
+      },
+      "CDD": {
+        "score": 0,
+        "games_played": 1,
+        "last_played": "2025-02-21T01:46:13.991Z"
       }
     }
   },
@@ -29,8 +39,8 @@
     "3": {
       "Cindy": {
         "score": 8,
-        "games_played": 1,
-        "last_played": "2025-02-20T19:55:56.363Z"
+        "games_played": 2,
+        "last_played": "2025-02-21T01:40:09.074Z"
       },
       "undefined": {
         "score": 9,
@@ -48,6 +58,11 @@
         "score": 7,
         "games_played": 1,
         "last_played": "2025-02-20T21:24:09.694Z"
+      },
+      "CDD": {
+        "score": 7,
+        "games_played": 1,
+        "last_played": "2025-02-21T01:47:23.333Z"
       }
     }
   },

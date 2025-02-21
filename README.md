@@ -26,6 +26,12 @@
       - [3.2 Builder Pattern](#-32-builder-pattern)
       - [3.3 Factory Pattern](#-33-factory-pattern)
     - [Conclusion](#-conclusion)
+    
+## Business Requirement
+- [📄 View Business Requirements](./business_requirements.md)
+
+## Youtube Vedio Introduction
+- [📄 click here](https://youtu.be/IQ3fMO47ef0)
 
 ## Overview
 **Bulls and Cows** is an engaging logic-based guessing game where players deduce a secret sequence through strategic thinking and deductive reasoning. With support for both numeric and character-based play and multiple difficulty levels, the game provides an accessible yet challenging experience for players of all skill levels.
