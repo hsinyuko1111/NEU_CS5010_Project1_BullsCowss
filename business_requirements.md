@@ -1,10 +1,10 @@
 # **Bulls and Cows Game: Business Requirements**
 
-- [📄 View v1 Business Requirements](./cows_bulls_business_requirment.pdf)
+- [📄 View v1 Business Requirements](docs/cows_bulls_business_requirment.pdf)
 
-- [📄 View v1 UML Diagram](./cows_bulls_uml.pdf)]
+- [📄 View UML Diagram](docs/cows_bulls_uml.pdf)
 
-- [📄 View v1 Mockup Interface](./cows_bulls_interface.pdf)]
+- [📄 View Mockup Interface](docs/cows_bulls_interface.pdf)
 
 ## **1️⃣ Project Overview**
 The **Bulls and Cows Game** is a modern adaptation of the classic **code-breaking game**, allowing users to guess either **numbers or characters** in an interactive and engaging experience. The game provides **real-time feedback** on guesses and supports **customizable difficulty levels** to cater to both casual and competitive players.
@@ -200,9 +200,29 @@ Users can be classified into the following categories based on their engagement 
   - `"As a social gamer, I want to be able to track my rank over time so that I can measure my progress."`  
 
 
+## **9️⃣ UML Associations & Relationships**
+
+| **Relationship Type** | **Description** |
+|---------------------|----------------|
+| **Associations** | **Player submits Guess** → A Player makes multiple Guess objects. |
+|                 | **Game provides Feedback** → Game calculates bulls & cows for Guess. |
+|                 | **GameManager creates Player** → GameManager is responsible for player creation. |
+|                 | **GameManager starts and tracks multiple Games** → GameManager manages multiple Game instances. |
+| **Aggregation** | **GameManager manages Leaderboard** → Leaderboard exists separately but is managed by GameManager. |
+|                | **Game contains multiple Guesses** → Guess objects exist independently but are tracked by Game. |
+|                | **Leaderboard tracks multiple Players** → Leaderboard maintains Player rankings. |
+| **Composition** | **Game owns Player** → Player is directly tied to a Game, and they exist together. |
+| **Generalization** | **Different game modes inherit from Game** → `NumberGame` and `CharacterGame` extend `Game`. |
+
+- [📄 View UML Diagram](docs/cows_bulls_uml.pdf)
+
+## **🔟  Mockup Interface**
+
+- [📄 View Mockup Interface](docs/cows_bulls_interface.pdf)
+
 ---
 
-## **9️⃣ AI Usage in This Project**
+## ** ✨ AI Usage in This Project**
 Throughout this project, AI tools like **ChatGPT 4o** were used to:
 ### 1️⃣ Refining Business Requirements
 **📌 Prompts Used:**
