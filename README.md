@@ -345,4 +345,4 @@ export default class GameManager {
 
 ### 🚀 Conclusion
 
-This project follows OOP best practices, ensuring scalability, maintainability, and extensibility.
+This project follows OOP best practices, ensuring scalability, maintainability, and extensibility:)
